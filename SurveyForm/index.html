@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/Survey.css">
+</head>
+<header>
+<h1 id="title"> <b>Sports Club Survey Form</b></h1>
+</header>
+<body>
+<p id="description"> <b>Fill the below details to help us improve the Sports Club<b></p>
+
+<form id="survey-form">
+
+  <div class="input-headings">
+
+<label for="name" id="name-label"> <b>Name:</b> </label>
+<input id="name" type="text" name="name" placeholder="Enter your name" class="form-inputs" required></input>
+<br>
+
+<label for="email" id="email-label"> <b>Email:</b> </label>
+<input id="email" type="email" name="email" placeholder="Enter your Email" class="form-inputs" required></input>
+<br>
+
+<label for="number" id="number-label"><b> Age: </b></label>
+<input id="number" type="number" name="number" placeholder="Enter your age" min="18" max="100" class="form-inputs" required></input>
+<br>
+
+<label for="dropdown" id="year"><b> Select year: </b></label>
+<select id="dropdown" class="form-inputs">
+  <option value="BTech 1st year"> BTech 1st year </option>
+  <option value="BTech 2nd year"> BTech 2nd year </option>
+  <option value="BTech 3rd year"> BTech 3rd year </option>
+  <option value="BTech 4th year"> BTech 4th year </option>
+  <option value="MTech 1st year"> MTech 1st year </option>
+  <option value="MTech 2nd year"> MTech 2nd year </option>
+  <option value="PhD"> PhD </option>
+  </select>
+  <br>
+  <br>
+
+  <label for="preference" id="preference"><b> Do you like indoor games more or outdoor games? </b></label>
+  <br>
+  <input id="preference" type="radio" id="indoor" name="choice1" value="indoor">
+  <label for="preference"> Indoor </label>
+  <br>
+  <input id="preference" type="radio" id="outdoor" name="choice1" value="outdoor">
+  <label for="preference"> Outdoor </label>
+  <br>
+  <input id="preference" type="radio" id="both" name="choice1" value="both">
+  <label for="preference"> Both </label>
+  <br>
+  <br>
+
+  <label for="choices"><b> Choose the games you would like to play: </b></label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="cricket">
+  <label for="checkbox"> Cricket </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="football">
+  <label for="checkbox"> Football </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="badminton">
+  <label for="checkbox"> Badminton </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="volleyball">
+  <label for="checkbox"> Volleyball </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="chess">
+  <label for="checkbox"> Chess </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="carrom">
+  <label for="checkbox"> Carrom </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="choice2" value="table-tennis">
+  <label for="checkbox"> Table Tennis </label>
+  <br>
+  <br>
+
+  <label id="textarea"><b> Any suggestions? </b></label>
+  <br>
+  <textarea id="textarea" name="suggestions" rows="5" cols="40" placeholder="Write your suggestions here">
+
+    </textarea>
+    <br>
+    <br>
+    <input id="submit" type="submit" value="Submit" class="submit-button">
+  </div>
+  </form>
+  </body>
+</html>
